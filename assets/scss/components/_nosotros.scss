@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+// ***** fuentes y hover de page NOSOTROS ******
+.nosotros-uno h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 1000;
+    color: rgb(94, 91, 91);
+    text-align: center;
+    margin-top: 100px;
+} 
+.nosotros-uno h1:hover{
+    color: rgb(62, 116, 62);
+}
+
+.nosotros-dos h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 1000;
+    color: rgb(94, 91, 91);
+    text-align: center;
+    margin-top: 100px;
+}
+.nosotros-dos h2:hover{
+    color: rgb(21, 218, 21);
+}
+
+.nosotros-tres h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 1000;
+    color: rgb(94, 91, 91);
+    text-align: center;
+    margin-top: 100px;
+}
+.nosotros-tres h2:hover{
+    color: rgb(21, 218, 21);
+}
+
+.paragraph-nosotros{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(94, 91, 91);
+    text-align: center;
+    margin: 60px;
+
+}
+
+// ****** Uso de GRID  en page NOSOTROS******
+.grid-container-nosotros{
+    background-color: rgb(121, 121, 115);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    }
+
+ //   ****transformación en imagenes de page NOSOTROS *****//
+
+ .transformacion-nosotros{
+    width: 300px;
+    height: auto;
+    vertical-align: middle;
+    margin: 100px 30px 100px 30px;
+    }
+.transformacion-nosotros:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+    }   
+
+    // ***** Otras fuentes   y hover en secciones de pages NOSOTROS ******
+.info-nosotros{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    color:beige;
+    text-align: center;
+    margin: 30px;
+    }
+    .info-nosotros:hover{
+        color: black;
+        background-color: beige;
+        padding: 10px;
+    }
+
+    

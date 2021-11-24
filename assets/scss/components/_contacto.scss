@@ -1,0 +1,35 @@
+.pregunta, .domicilio{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 7rem;
+    margin-bottom: 7rem;margin-right: 4rem;
+}
+.pregunta:hover{
+    background-color: rgb(231, 231, 233);
+}
+.domicilio:hover{
+    background-color: rgb(231, 231, 233);
+}
+.domicilio-escrito{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300; 
+    display: flex;
+    justify-content: center;
+}
+// *****  para el form de Boostrap  ****
+.mb-3{
+    margin: 5rem 3rem 7rem 3rem;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8rem;
+   
+}
+.borde-mapa{
+    border: 2px solid rgb(41, 23, 77);
+}
