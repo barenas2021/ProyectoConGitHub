@@ -55,9 +55,10 @@
 // ****** Uso de GRID  en page NOSOTROS******
 .grid-container-nosotros{
     background-color: rgb(121, 121, 115);
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    flex-wrap: wrap;
     }
 
  //   ****transformación en imagenes de page NOSOTROS *****//
@@ -88,4 +89,3 @@
         padding: 10px;
     }
 
-    
