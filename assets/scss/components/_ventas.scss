@@ -2,5 +2,32 @@ header{
     background-color: #F8F9F9;
 }
 
-
+.nombre-casa{
+    font-family: 'Montserrat';
+    font-style: oblique;
+    font-weight: 700;
+    font-display: swap;
+    color: rgb(100, 96, 91); 
+    margin-top: 8rem;
+    text-align: center;
+}
+.fuente-paragraph{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 650;
+  font-display: swap;
+  color: rgb(134, 128, 119);
+  text-align:justify;
+}
+.contenedor-venta{
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: center;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: rgb(237, 235, 245);
+}
+.color-borde{
+    border: black solid 1px;
+}
 

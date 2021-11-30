@@ -218,4 +218,42 @@ h1 {
 header {
   background-color: #F8F9F9;
 }
+
+.nombre-casa {
+  font-family: 'Montserrat';
+  font-style: oblique;
+  font-weight: 700;
+  font-display: swap;
+  color: #64605b;
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.fuente-paragraph {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 650;
+  font-display: swap;
+  color: #868077;
+  text-align: justify;
+}
+
+.contenedor-venta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2rem;
+  background-color: #edebf5;
+}
+
+.color-borde {
+  border: black solid 1px;
+}
 /*# sourceMappingURL=style.css.map */
